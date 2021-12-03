@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luxury Dealership Inc.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <section id="home" class="home">
+      <header class="header">
+        <nav class="nav">
+          <ul>
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <div class="logo">
+              <h1>Luxury<span>Dealership</span><span>Inc.</span></h1>
+            </div>
+            <li>
+              <a href="#team">Vehicles</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+          <img src="img/list.svg" alt="Menu" id="buttonMobile" />
+        </nav>
+      </header>
+      <nav class="menuMobile">
+        <ul>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#team">Vehicles</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div>
+        <h2>Cause you deserve the best in life</h2>
+      </div>
+    </section>
+    <section id="about" class="about">
+      <div class="container">
+        <div>
+          <img src="img/man1.jpg" alt="Rich man" />
+          <img src="img/man2.jpg" alt="Rich man" />
+        </div>
+        <div>
+          <h2>About us</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate, esse soluta illum maiores id magni vel debitis unde exercitationem, quis velit inventore reprehenderit, impedit ex. Cupiditate quasi vitae laudantium reiciendis.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, tempore? Ab doloremque molestias dolorum officia nulla possimus eos iure a. Ullam quam veritatis, velit voluptatibus quas reiciendis a quia sapiente.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="team" class="team">
+      <div class="container">
+        <h2>Our Products</h2>
+        <div class="seasons">
+          <button class="buttonSeason" value="all">all</button>
+          <button class="buttonSeason" value="car">Car</button>
+          <button class="buttonSeason" value="jet">Jet</button>
+          <button class="buttonSeason" value="truck">Truck</button>
+          <button class="buttonSeason" value="yatch">Yatch</button>
+          <button class="buttonSeason" value="motorbike">Motorbike</button>
+        </div>
+        <div class="gallery active"></div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Want to buy the best? Contact us!</h2>
+        <img src="img/contact.jpg" alt="Contact" />
+        <form>
+          <div class="personal-data">
+            <div class="input-wrapper">
+              <label>Name</label>
+              <input type="text" placeholder="Type your name" />
+            </div>
+            <div class="input-wrapper">
+              <label>Email</label>
+              <input type="email" placeholder="Type your email" />
+            </div>
+            <div class="input-wrapper">
+              <label>Vehicle Category</label>
+              <select name="" id="">
+                <option selected>Select one</option>
+                <option>Miscellaneous</option>
+                <option>Car</option>
+                <option>Jet</option>
+                <option>Truck</option>
+                <option>Yatch</option>
+                <option>Motorbike</option>
+              </select>
+            </div>
+          </div>
+          <div class="input-wrapper">
+            <label>Offer</label>
+            <textarea placeholder="Type the owner and offer"></textarea>
+          </div>
+          <button>Send</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>Developed by Guga Macedo</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
