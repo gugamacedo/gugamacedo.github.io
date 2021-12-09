@@ -76,11 +76,6 @@ const allVehicles = [
     type: 'motorbike'
   },
   {
-    name: 'Zac Wolff',
-    image: 'zac-wolff.jpg',
-    type: 'motorbike'
-  },
-  {
     name: 'Daniel Thurler',
     image: 'daniel-thurler.jpg',
     type: 'motorbike'
