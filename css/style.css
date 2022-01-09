@@ -44,9 +44,10 @@ h2 {
   margin: 25px 0;
 }
 
-/* .social img {
+.social img {
+  width: 30px;
   height: 30px;
-} */
+}
 
 .social a,
 .links-list li a {
